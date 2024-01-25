@@ -23,7 +23,7 @@ const ProjectCard = ({ project }) => {
             alt="project-banner"
             priority
           />
-          <div>
+          <div className="flex gap-x-4">
             <Link
               className="bg-secondary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:opacity-100
               group-hover:scale-100

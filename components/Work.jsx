@@ -13,7 +13,7 @@ const projectData = [
     category: "ReactJs",
     name: "BingeYoutube",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem  ",
+      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum   ",
     link: "/bingeyoutube.vercel.app",
     github: "/github.com/SamarthanandKamble",
   },
@@ -22,7 +22,7 @@ const projectData = [
     category: "ReactJs",
     name: "ChatRoom",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem  ",
+      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem  ",
     link: "/",
     github: "/",
   },
@@ -31,7 +31,7 @@ const projectData = [
     category: "Next Js",
     name: "Portfolio",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem  ",
+      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum",
     link: "/",
     github: "/",
   },
@@ -39,8 +39,7 @@ const projectData = [
     image: "/work/caloriefit.png",
     category: "ReactJs",
     name: "CalorieFit",
-    description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem  ",
+    description: "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum",
     link: "/",
     github: "/",
   },
@@ -79,7 +78,7 @@ const Work = () => {
               },
             }}
             spaceBetween={30}
-            modules={[ Pagination] }
+            modules={[Pagination]}
             pagination={{ clickable: true }}
           >
             {projectData.slice(0, 4).map((data, index) => (
