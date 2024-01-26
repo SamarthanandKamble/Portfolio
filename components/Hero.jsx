@@ -15,14 +15,14 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-no-repeat bg-bottom bg-cover dark:bg-none">
+    <section className="py-10 lg:py-20 h-[84vh] xl:pt-28 bg-no-repeat bg-bottom bg-cover dark:bg-none mb-52 sm:mb-20">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
-          <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
+          <div className="flex max-w-[500px] sm:max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Web Developer
             </div>
-            <h1 className="h1">Hey there, my name is Samarthanand Kamble</h1>
+            <h1 className="h1">Howdy folks! Let's explore together.</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               Brief description with the insights into myself, my vocational
               journey and what I engage in professional journey.
