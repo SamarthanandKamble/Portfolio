@@ -116,13 +116,13 @@ const About = () => {
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           About me
         </h2>
-        <div className="flex flex-col xl:flex-row">
+        <div className="flex flex-col xl:flex-row items-center">
           <div className="hidden xl:flex flex-1 relative">
             <DevImage
               containerStyles={
-                "bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
+                "w-[350px] h-[405px] bg-no-repeat relative rounded-lg"
               }
-              imgSrc={"/about/developer.png"}
+              imgSrc={"/about/about-light.png"}
             />
           </div>
           <div className="flex-1">

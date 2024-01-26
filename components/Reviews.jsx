@@ -15,31 +15,31 @@ import { Pagination } from "swiper/modules";
 
 const reviewsData = [
   {
-    avatar: "/reviews/avatar-2.png",
+    avatar: "/reviews/avatar-1.jpg",
     name: "Simranjeet Kaur",
     job: "Tech Lead",
     review: "lorem lorem ipsum , ipsum lorem ipsum ipsum lorem",
   },
   {
-    avatar: "/reviews/avatar-3.png",
+    avatar: "/reviews/avatar-3.jpg",
     name: "Aditi Kansal",
     job: "SDE 2",
     review: "lorem lorem ipsum , ipsum lorem ipsum ipsum lorem",
   },
   {
-    avatar: "/reviews/avatar-4.png",
+    avatar: "/reviews/avatar-4.jpg",
     name: "Mihir Mondhe",
     job: "SDE 2",
     review: "lorem lorem ipsum , ipsum lorem ipsum ipsum lorem",
   },
   {
-    avatar: "/reviews/avatar-5.png",
+    avatar: "/reviews/avatar-5.jpg",
     name: "Manish Gupta",
     job: "SDE 2",
     review: "lorem lorem ipsum , ipsum lorem ipsum ipsum lorem",
   },
   {
-    avatar: "/reviews/avatar-1.png",
+    avatar: "/reviews/avatar-2.jpg",
     name: "Vikas Rai",
     job: "SDE 1",
     review: "lorem lorem ipsum , ipsum lorem ipsum ipsum lorem",

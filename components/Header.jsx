@@ -25,7 +25,7 @@ const Header = () => {
         header
           ? "py-4 bg-white shadow-lg dark:bg-accent"
           : "py-6 dark:bg-transparent"
-      } sticky top-0 z-30 transition-all ${
+      } sticky top-0 z-50 transition-all ${
         pathName === "/" && "bg-[#fef9f5]"
       } `}
     >
