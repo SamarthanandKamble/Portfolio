@@ -10,7 +10,7 @@ const projectData = [
     description:
       "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum   ",
     link: "/bingeyoutube.vercel.app",
-    github: "/github.com/SamarthanandKamble",
+    github: "/github.com/SamarthanandKamble/YoutubeClone",
   },
   {
     image: "/work/chatRoom.png",
@@ -18,8 +18,8 @@ const projectData = [
     name: "ChatRoom",
     description:
       "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem  ",
-    link: "/",
-    github: "/",
+    link: "/letthechathappen.vercel.app",
+    github: "/github.com/SamarthanandKamble/ChatApp",
   },
   {
     image: "",
@@ -35,8 +35,8 @@ const projectData = [
     category: "ReactJs",
     name: "CalorieFit",
     description: "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum",
-    link: "/",
-    github: "/",
+    link: "/calorifit.netlify.app",
+    github: "/github.com/SamarthanandKamble/CalorieFit",
   },
   {
     image: "",
@@ -45,7 +45,17 @@ const projectData = [
     description:
       "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem  ",
     link: "/",
-    github: "/",
+    github: "/github.com/SamarthanandKamble/NetflixClone",
+  },
+
+  {
+    image: "",
+    category: "ReactJs",
+    name: "GiphyTalks",
+    description:
+      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem  ",
+    link: "/giphytalks.netlify.app",
+    github: "/github.com/SamarthanandKamble/GiphyTalks",
   },
 ];
 
