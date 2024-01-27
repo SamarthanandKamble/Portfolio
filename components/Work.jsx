@@ -13,7 +13,7 @@ const projectData = [
     category: "ReactJs",
     name: "BingeYoutube",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum   ",
+      "A platform where user can search and discover a wide array of videos effortlessly.",
     link: "/bingeyoutube.vercel.app",
     github: "/github.com/SamarthanandKamble/YoutubeClone",
   },
@@ -22,7 +22,7 @@ const projectData = [
     category: "ReactJs",
     name: "ChatRoom",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem  ",
+      "Facilitates seamless and realtime communication, allowing users to send and receive messages instantly.",
     link: "/letthechathappen.vercel.app",
     github: "/github.com/SamarthanandKamble/ChatApp",
   },
@@ -31,7 +31,7 @@ const projectData = [
     category: "Next Js",
     name: "Portfolio",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum",
+      "Explore my handpicked portfolio, showcasing a glimpse of my recent work and development.",
     link: "/",
     github: "/",
   },
@@ -39,7 +39,8 @@ const projectData = [
     image: "/work/caloriefit.png",
     category: "ReactJs",
     name: "CalorieFit",
-    description: "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum",
+    description:
+      "Empowering users to monitor their daily nutrition with a sleek and intuitive application",
     link: "/calorifit.netlify.app",
     github: "/https://github.com/Samarth1002/CalorieFit",
   },
@@ -48,7 +49,7 @@ const projectData = [
     category: "ReactJs",
     name: "ChillFlix",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem  ",
+      " Recreating the magic of the popular streaming platform. Dive into a seamless user experience with my Netflix clone, featuring an immersive interface and responsive design",
     link: "/",
     github: "/",
   },
@@ -58,7 +59,7 @@ const projectData = [
     category: "ReactJs",
     name: "GiphyTalks",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem  ",
+      "Experience the joy of dynamic conversations with my GIF-powered messaging application. Bringing the vibrancy of Giphy into your chats, this project adds a lively touch to communication",
     link: "/giphytalks.netlify.app",
     github: "/https://github.com/Samarth1002/GiphyTalks",
   },
@@ -71,8 +72,8 @@ const Work = () => {
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12  xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-8 ">
-            lorem ipsum ipsum Lorem.lorem ipsum ipsum Lorem.lorem ipsum ipsum
-            Lorem. lorem ipsum ipsum Lorem.
+            Featured snapshots of my latest projects. Explore a glimpse of my current work-in-progress,
+            highlighting ongoing dedication to quality and innovation.
           </p>
           <Link href={"/projects"}>
             <Button>All projects</Button>

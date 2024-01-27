@@ -12,19 +12,19 @@ const serviceData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "Web Design",
     description:
-      "lorem, afciaa , aoinacnac, caoincao ncaocaca, acnac, acnacaa,aconaca",
+      "Passionate web designer with a flair for creativity and a keen eye for detail. Transforming ideas into visually stunning and user-friendly design.",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "Web Development",
     description:
-      "lorem, afciaa , aoinacnac, caoincao ncaocaca, acnac, acnacaa,aconaca",
+      "Seasoned web developer with a portfolio of hosted projects. Expert in crafting functional and engaging web apps.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "Web Developer",
+    title: "Blog Writer",
     description:
-      "lorem, afciaa , aoinacnac, caoincao ncaocaca, acnac, acnacaa,aconaca",
+      "Aspiring blog writer, eager to share insights and expertise. Stay tuned for upcoming posts!",
   },
 ];
 

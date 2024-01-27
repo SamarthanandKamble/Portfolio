@@ -8,7 +8,7 @@ const projectData = [
     category: "ReactJs",
     name: "BingeYoutube",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum   ",
+      "A platform where user can search and discover a wide array of videos effortlessly.",
     link: "/bingeyoutube.vercel.app",
     github: "/github.com/SamarthanandKamble/YoutubeClone",
   },
@@ -17,7 +17,7 @@ const projectData = [
     category: "ReactJs",
     name: "ChatRoom",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem  ",
+      "Facilitates seamless and realtime communication, allowing users to send and receive messages instantly.",
     link: "/letthechathappen.vercel.app",
     github: "/github.com/SamarthanandKamble/ChatApp",
   },
@@ -26,7 +26,7 @@ const projectData = [
     category: "Next Js",
     name: "Portfolio",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum",
+      "Explore my handpicked portfolio, showcasing a glimpse of my recent work and development.",
     link: "/",
     github: "/",
   },
@@ -34,18 +34,19 @@ const projectData = [
     image: "/work/caloriefit.png",
     category: "ReactJs",
     name: "CalorieFit",
-    description: "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum",
+    description:
+      "Empowering users to monitor their daily nutrition with a sleek and intuitive application",
     link: "/calorifit.netlify.app",
-    github: "/github.com/SamarthanandKamble/CalorieFit",
+    github: "/https://github.com/Samarth1002/CalorieFit",
   },
   {
     image: "",
     category: "ReactJs",
     name: "ChillFlix",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem  ",
+      " Recreating the magic of the popular streaming platform. Dive into a seamless user experience with my Netflix clone, featuring an immersive interface and responsive design",
     link: "/",
-    github: "/github.com/SamarthanandKamble/NetflixClone",
+    github: "/",
   },
 
   {
@@ -53,12 +54,11 @@ const projectData = [
     category: "ReactJs",
     name: "GiphyTalks",
     description:
-      "Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem.Lorem ipsum,ipsum lorem Lorem ipsum ipsum lorem.Lorem ipsum ipsum lorem  ",
+      "Experience the joy of dynamic conversations with my GIF-powered messaging application. Bringing the vibrancy of Giphy into your chats, this project adds a lively touch to communication",
     link: "/giphytalks.netlify.app",
-    github: "/github.com/SamarthanandKamble/GiphyTalks",
+    github: "/https://github.com/Samarth1002/GiphyTalks",
   },
 ];
-
 const uniqueCategories = [
   "all projects",
   ...new Set(projectData.map((item) => item.category)),
