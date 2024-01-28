@@ -15,7 +15,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="py-10 lg:py-20 h-[84vh] lg:pt-14   bg-no-repeat bg-bottom bg-cover dark:bg-none mb-40 sm:mb-16 md:mb-0">
+    <section className="py-10 lg:py-20 h-[80vh] sm:h-[84vh] lg:pt-14  bg-no-repeat bg-bottom bg-cover dark:bg-none sm:mb-16 md:mb-0">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           <div className="flex max-w-[500px] sm:max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
