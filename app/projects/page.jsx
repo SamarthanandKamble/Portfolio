@@ -22,7 +22,7 @@ const projectData = [
     github: "/github.com/SamarthanandKamble/ChatApp",
   },
   {
-    image: "",
+    image: "/work/portfolio-bg.png",
     category: "Next Js",
     name: "Portfolio",
     description:
